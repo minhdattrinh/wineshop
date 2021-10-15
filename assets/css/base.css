@@ -51,6 +51,17 @@
     -ms-flex-pack: center !important;
     justify-content: center !important;
 }
+
+.justify-content-between {
+    -webkit-box-pack: center !important;
+    -ms-flex-pack: center !important;
+    justify-content: space-between !important;
+}
+.align-items-center {
+    -webkit-box-align: center !important;
+    -ms-flex-align: center !important;
+    align-items: center !important;
+}
 /* M-P */
 .p-15px {
     padding: 0 15px !important;
@@ -62,6 +73,10 @@
 
 .m-bt {
     margin-bottom:40px !important;
+}
+
+.m-b-4 {
+    margin-bottom: 1.5rem !important;
 }
 
 .m-b-5 {

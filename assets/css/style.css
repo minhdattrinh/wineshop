@@ -969,3 +969,18 @@ i.active {
     line-height: 1.1;
     font-weight: 400;
 }
+
+/* ------PRODUCT------ */
+
+.content_product-select {
+    font-size:18px;
+    color: #000;
+    margin: 0 0 8px;
+    line-height:1.5;
+    font-weight:400;
+}
+
+select.content_product-selectpicker {
+    width: 200px;
+    height: 25px;
+}
