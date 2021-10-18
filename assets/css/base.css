@@ -78,6 +78,10 @@
     margin-bottom:40px !important;
 }
 
+.m-t-4 {
+    margin-top: 1.5rem !important;
+}
+
 .m-t-5 {
     margin-top: 1rem !important;
 }
@@ -88,6 +92,26 @@
 
 .m-b-5 {
     margin-bottom: 3rem !important;
+}
+
+.m-r-2 {
+    margin-right: 0.5rem !important;
+}
+
+.m-l-2 {
+    margin-left: 0.5rem !important;
+}
+
+.m-r-4 {
+    margin-right: 24px !important;
+}
+
+.m-bt-4 {
+    margin-bottom: 16px !important;
+}
+
+.p-l-5 {
+    padding-left: 3rem !important;
 }
 
 .p-48px{
@@ -114,6 +138,10 @@
 
 .active {
     color: #fff!important;
+}
+
+.text-left {
+    text-align: left !important;
 }
 
 /* animation */
