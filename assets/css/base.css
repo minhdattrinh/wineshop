@@ -11,6 +11,10 @@
     background: #f5f4f0!important;
 }
 
+.bg-light {
+    background: #f5f4f0!important;
+}
+
 .overlay {
     position: absolute;
     top: 0;
@@ -140,9 +144,14 @@
     padding: 0 !important;
 }
 
+.p-5 {
+    padding: 3rem !important;
+}
+
 .p-l-5 {
     padding-left: 3rem !important;
 }
+
 
 .p-48px{
     padding: 48px 15px 48px 48px ;
