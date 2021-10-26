@@ -1,7 +1,7 @@
 window.onscroll = function () {
     const header_nav = document.getElementById('header_top')
     const header_link = document.querySelectorAll('#link')
-    if (document.documentElement.scrollTop > 200 ||document.body.scrollTop > 200){
+    if (document.documentElement.scrollTop > 100 ||document.body.scrollTop > 100){
         header_nav.classList.add("scroll_nav")
         header_link[0].classList.remove("active")
         header_link[0].classList.add("active-i")
