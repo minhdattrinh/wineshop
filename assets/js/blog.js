@@ -1,0 +1,25 @@
+window.onscroll = function () {
+    const header_nav = document.getElementById('header_top')
+    const header_link = document.querySelectorAll('#link')
+    if (document.documentElement.scrollTop > 200 ||document.body.scrollTop > 200){
+        header_nav.classList.add("scroll_nav")
+        header_link[0].classList.add("header_link-color")
+        header_link[1].classList.add("header_link-color")
+        header_link[2].classList.add("header_link-color")
+        header_link[3].classList.remove("active")
+        header_link[3].classList.add("active-i")
+        header_link[4].classList.add("header_link-color")
+
+       
+        
+    }
+    else {
+        header_nav.classList.remove("scroll_nav")
+        header_link[0].classList.remove("header_link-color")
+        header_link[1].classList.remove("header_link-color")
+        header_link[2].classList.remove("header_link-color")
+        header_link[3].classList.add("active")
+        header_link[3].classList.remove("active-i")
+        header_link[4].classList.remove("header_link-color")
+    }
+}

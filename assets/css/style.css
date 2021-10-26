@@ -71,6 +71,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 5px;
+    margin-bottom: 5px;
     
 }
 /* H-Cart */
@@ -1321,14 +1322,16 @@ input.content_P-single-input-text {
     color: #fff;
 }
 
-.content_contact-box-text p {
-    
-}
 
 .content_contact-box-text p span {
     font-size: 16px;
     color: var(--text-color);
     font-weight: 600;
+}
+
+.content_contact-box-text p a {
+    text-decoration: none;
+    color: var(--primary-color_1);
 }
 /* contact_form */
 .content_contact-form {
@@ -1351,4 +1354,24 @@ input.content_P-single-input-text {
     -webkit-box-shadow: none!important;
     box-shadow: none!important;
     border-bottom: 1px solid rgba(0,0,0,.1) !important;
+}
+
+/*  */
+.scroll_nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: #fff !important;
+    transition: .3s all linear;
+    box-shadow: 0 0 10px 0 rgb(0 0 0 / 10%);
+    z-index: 3;
+    margin-top: 0;
+}
+
+.header_link-color {
+    color: #000 ;
+}
+.active-i {
+    color: #b7472a !important;
 }

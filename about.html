@@ -56,7 +56,7 @@
             </div>
         </div>
         <!-- H-nav -->
-        <nav class="heading_nav">
+        <nav class="heading_nav" id="header_top">
             <div class="grid wide container-flex">
                 <div class="heading_nav-logo">
                     <a href="./index.html" class="heading_nav-logo-link">
@@ -66,13 +66,13 @@
                 <div class="heading_nav-menu">
                     <ul class="heading_nav-list-menu ml-auto">
                         <li class="heading_nav-list-item ">
-                            <a href="./index.html" class="heading_nav-list-item-link ">HOME</a>
+                            <a href="./index.html" class="heading_nav-list-item-link" id ="link" >HOME</a>
                         </li>
                         <li class="heading_nav-list-item">
-                            <a href="./about.html" class="heading_nav-list-item-link active">ABOUT</a>
+                            <a href="./about.html" class="heading_nav-list-item-link active" id ="link">ABOUT</a>
                         </li>
                         <li class="heading_nav-list-item heading_nav-list-item-hv ">
-                            <a href="" class="heading_nav-list-item-link">
+                            <a href="" class="heading_nav-list-item-link" id ="link">
                                 PRODUCTS
                                 <i class="fas fa-caret-down"></i>
                             </a>
@@ -84,10 +84,10 @@
                             </div>
                         </li>
                         <li class="heading_nav-list-item">
-                            <a href="./blog/blog.html" class="heading_nav-list-item-link">BLOG</a>
+                            <a href="./blog/blog.html" class="heading_nav-list-item-link" id ="link">BLOG</a>
                         </li>
                         <li class="heading_nav-list-item">
-                            <a href="./contact/contact.html" class="heading_nav-list-item-link">CONTACT</a>
+                            <a href="./contact/contact.html" class="heading_nav-list-item-link" id ="link">CONTACT</a>
                         </li>
                     </ul>
                 </div>
@@ -237,7 +237,7 @@
                                 and the Little Blind Text should turn around and return to its own, safe country.
                             </p>
                             <p class ="content_introduction-about-year">
-                               <strong class = "content_introduction-number" data-number = "115">115</strong>
+                               <strong class = "content_introduction-number" id="year-count" data-number = "115">115</strong>
                                <span>Years of Experience In Business</span>
                             </p>
                         </div>
@@ -405,7 +405,7 @@
                     <div class="col l-3">
                         <div class="content_counter">
                             <div class="content_counter-text">
-                                <strong>3,000</strong>
+                                <strong id="customer-count">3,000</strong>
                                 <span>OUR SATISFIED CUSTOMERS</span>
                             </div>
                         </div>
@@ -413,7 +413,7 @@
                     <div class="col l-3">
                         <div class="content_counter">
                             <div class="content_counter-text">
-                                <strong>115</strong>
+                                <strong id="years-count">115</strong>
                                 <span>YEARS OF EXPERIENCE</span>
                             </div>
                         </div>
@@ -421,7 +421,7 @@
                     <div class="col l-3">
                         <div class="content_counter">
                             <div class="content_counter-text">
-                                <strong>100</strong>
+                                <strong id="kind-count">100</strong>
                                 <span>KINDS OF LIQUOR</span>
                             </div>
                         </div>
@@ -429,7 +429,7 @@
                     <div class="col l-3">
                         <div class="content_counter">
                             <div class="content_counter-text">
-                                <strong>40</strong>
+                                <strong id="branches-count">40</strong>
                                 <span>OUR BRANCHES</span>
                             </div>
                         </div>
@@ -610,5 +610,6 @@
             </div>
         </div>
     </div>
+    <script src="./assets/js/about.js"></script>
 </body>
 </html>
