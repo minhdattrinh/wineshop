@@ -1,6 +1,7 @@
 window.onscroll = function () {
     const header_nav = document.getElementById('header_top')
     const header_link = document.querySelectorAll('#link')
+    const menu_nav = document.querySelector('#nav-menu')
     if (document.documentElement.scrollTop > 100 ||document.body.scrollTop > 100){
         header_nav.classList.add("scroll_nav")
         header_link[0].classList.remove("active")
@@ -9,6 +10,7 @@ window.onscroll = function () {
         header_link[2].classList.add("header_link-color")
         header_link[3].classList.add("header_link-color")
         header_link[4].classList.add("header_link-color")
+        menu_nav.classList.add('menu_nav-color')
 
        
         
@@ -21,6 +23,7 @@ window.onscroll = function () {
         header_link[2].classList.remove("header_link-color")
         header_link[3].classList.remove("header_link-color")
         header_link[4].classList.remove("header_link-color")
+        menu_nav.classList.remove('menu_nav-color')
     }
 }
 
@@ -42,8 +45,9 @@ function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) 
   }
 
   document.addEventListener('DOMContentLoaded', function () {
-    animateNumber(115, 9000, 0, function (number) {
+    animateNumber(115, 5000, 0, function (number) {
       const formattedNumber = number.toLocaleString()
       document.getElementById('transaction-count').innerText = formattedNumber
     })
   })
+

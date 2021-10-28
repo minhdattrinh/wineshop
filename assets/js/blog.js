@@ -9,9 +9,6 @@ window.onscroll = function () {
         header_link[3].classList.remove("active")
         header_link[3].classList.add("active-i")
         header_link[4].classList.add("header_link-color")
-
-       
-        
     }
     else {
         header_nav.classList.remove("scroll_nav")

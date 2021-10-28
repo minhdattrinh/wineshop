@@ -8,7 +8,9 @@
     <link rel="stylesheet" href="../assets/css/style.css">
     <link rel="stylesheet" href="../assets/css/grid.css">
     <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/responsive.css">
     <link rel="stylesheet" href="../assets/font/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../assets/animate-wow/animate.css">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 </head>
 <body>
@@ -72,7 +74,7 @@
                             <a href="../about.html" class="heading_nav-list-item-link " id ="link">ABOUT</a>
                         </li>
                         <li class="heading_nav-list-item heading_nav-list-item-hv ">
-                            <a href="#" class="heading_nav-list-item-link active">
+                            <a href="#" class="heading_nav-list-item-link active" id ="link">
                                 PRODUCTS
                                 <i class="fas fa-caret-down"></i>
                             </a>
@@ -149,18 +151,20 @@
                  <div class="row no-gutters">
                      <div class="col l-9 ">
                         <div class="heading_middle-about-text">
-                            <p>
-                                <span class="about-hover">
-                                    <a href="../index.html" class="heading_middle-about-link">HOME</a>
-                                    <i class="fas fa-chevron-right"></i>
-                                </span>
-                                <span class = "p-l-10">
-                                    Checkout
-                                    <i class="fas fa-chevron-right"></i>
-                                </span>
-                                
-                            </p>
-                            <h2>Checkout</h2>
+                            <div class="wow fadeInUp">
+                                <p>
+                                    <span class="about-hover">
+                                        <a href="../index.html" class="heading_middle-about-link">HOME</a>
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                    <span class = "p-l-10">
+                                        Checkout
+                                        <i class="fas fa-chevron-right"></i>
+                                    </span>
+                                    
+                                </p>
+                                <h2>Checkout</h2>
+                            </div>
                         </div>
                      </div>
                  </div>
@@ -168,7 +172,7 @@
          </div>
         </div>
         <!-- C-billing -->
-        <div class="content_introduction">
+        <div class="content_introduction wow fadeInUp">
             <div class="grid wide">
                 <div class="row justify-content-center">
                     <div class="col l-10">
@@ -355,13 +359,13 @@
                         </p>
                         <ul class="content_footer-social">
                             <li class="content_footer-list-social">
-                                <a href="" class="content_footer-social-link">
+                                <a href="" class="content_footer-social-link wow fadeInUp" data-wow-delay = ".05s">
                                     <i class="fab fa-twitter"></i>
                                 </a>
-                                <a href="" class="content_footer-social-link">
+                                <a href="" class="content_footer-social-link wow fadeInUp" data-wow-delay = ".1s">
                                     <i class="fab fa-facebook-f"></i>
                                 </a>
-                                <a href="" class="content_footer-social-link">
+                                <a href="" class="content_footer-social-link wow fadeInUp" data-wow-delay = ".2s">
                                     <i class="fab fa-instagram"></i>
                                 </a>
                             </li>
@@ -513,5 +517,9 @@
         </div>
     </div>
     <script src="../assets/js/product.js"></script>
+    <script src="../assets/animate-wow/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
 </body>
 </html>

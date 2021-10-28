@@ -48,6 +48,7 @@
 .d-flex {
     display: flex !important;
     justify-content: flex-end !important;
+    flex-grow:1;
 }
 
 .d-flex-center {

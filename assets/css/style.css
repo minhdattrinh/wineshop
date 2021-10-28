@@ -202,6 +202,9 @@ body {
     text-transform: uppercase;
 }
 
+#mobile-menu {
+    display: none;
+}
 
 /*  */
 
@@ -1370,8 +1373,17 @@ input.content_P-single-input-text {
 }
 
 .header_link-color {
-    color: #000 ;
+    color: #000;
 }
 .active-i {
     color: #b7472a !important;
+}
+
+.menu_nav-color {
+    background: #fff !important;
+    transition: 2s all linear;
+}
+
+.open {
+    display: block;
 }
