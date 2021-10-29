@@ -1389,3 +1389,14 @@ input.content_P-single-input-text {
 .open {
     display: block;
 }
+#mobile-menu{
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: transparent; 
+}
+
+#mobile-menu i {
+    color: var(--primary-color_2);
+}
+
