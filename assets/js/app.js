@@ -51,3 +51,18 @@ function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) 
     })
   })
 
+
+const navMenu = document.querySelector('#nav-menu')
+const mobileMenu = document.querySelector('#mobile-menu')
+const subMenu = document.querySelector('#sub-menu')
+const itemMenu = document.querySelector('#item-menu')
+
+mobileMenu.addEventListener('click', () => {
+  navMenu.classList.toggle('show')
+})
+
+subMenu.addEventListener('click', () => {
+  itemMenu.classList.toggle('show')
+})
+
+

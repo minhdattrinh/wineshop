@@ -48,7 +48,7 @@ body {
 .heading_nav {
     display: flex;
     /* background-color:black; */
-    background: transparent!important;
+    background: transparent;
     position: absolute;
     /* top: 35px; */
     left: 0;

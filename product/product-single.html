@@ -66,19 +66,19 @@
                     </a>
                 </div>
                 <div class="heading_nav-menu">
-                    <ul class="heading_nav-list-menu ml-auto">
+                    <ul class="heading_nav-list-menu ml-auto" id="nav-menu">
                         <li class="heading_nav-list-item ">
                             <a href="../index.html" class="heading_nav-list-item-link" id ="link">HOME</a>
                         </li>
                         <li class="heading_nav-list-item">
                             <a href="../about.html" class="heading_nav-list-item-link" id ="link">ABOUT</a>
                         </li>
-                        <li class="heading_nav-list-item heading_nav-list-item-hv ">
+                        <li class="heading_nav-list-item heading_nav-list-item-hv " id="sub-menu">
                             <a href="#" class="heading_nav-list-item-link active" id ="link">
                                 PRODUCTS
                                 <i class="fas fa-caret-down"></i>
                             </a>
-                            <div class="heading_nav-sub-menu">
+                            <div class="heading_nav-sub-menu" id="item-menu">
                                 <a href="../product/product.html" class="heading_nav-sub-menu-link">Products</a>
                                 <a href="../product/product-single.html" class="heading_nav-sub-menu-link">Single Products</a>
                                 <a href="../product/cart.html" class="heading_nav-sub-menu-link">Cart</a>
@@ -138,6 +138,9 @@
                         </div>
                         <a href="../product/cart.html" class="heading_nav-cart-view-all">view all</a>
                     </div>
+                </div>
+                <div>
+                    <button id ="mobile-menu">Menu</button>
                 </div>
             </div>
         </nav>
@@ -443,6 +446,20 @@
     <script src="../assets/animate-wow/wow.min.js"></script>
     <script>
         new WOW().init();
+    </script>
+    <script>
+        const navMenu = document.querySelector('#nav-menu')
+        const mobileMenu = document.querySelector('#mobile-menu')
+        const subMenu = document.querySelector('#sub-menu')
+        const itemMenu = document.querySelector('#item-menu')
+
+        mobileMenu.addEventListener('click', () => {
+        navMenu.classList.toggle('show')
+        })
+
+        subMenu.addEventListener('click', () => {
+        itemMenu.classList.toggle('show')
+        })
     </script>
 </body>
 </html>
