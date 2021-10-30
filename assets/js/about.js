@@ -80,4 +80,7 @@ function animateNumber(finalNumber, duration = 5000, startNumber = 0, callback) 
   subMenu.addEventListener('click', () => {
     itemMenu.classList.toggle('show')
   })
+
+  // fix ip
+document.addEventListener("touchstart", function() {},false);
   
