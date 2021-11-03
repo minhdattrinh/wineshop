@@ -27,3 +27,18 @@ window.onscroll = function () {
 
 // fix ip
 document.addEventListener("touchstart", function() {},false);
+
+// add, minus quantity
+
+function add() {
+    const t = document.getElementById('quantity').value;
+        document.getElementById('quantity').value = parseInt(t)+1;
+        
+}
+
+function minus() {
+    const t = document.getElementById('quantity').value;
+    if( parseInt(t) > 1)
+        document.getElementById('quantity').value = parseInt(t)-1;
+        
+}
