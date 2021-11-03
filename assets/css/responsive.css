@@ -60,6 +60,9 @@
     .content_clients-slide-box {
         margin-top: 25px;
     }
+    .content_sub-footer p {
+        width: 60%;
+    }
 
 }
 
@@ -70,8 +73,8 @@
     }
 
     .heading_nav-logo-link-img {
-        width: 100px;
-        height: 56px;
+        width: 155px;
+        height: 70px;
     }
 
     #item-menu.show {
@@ -130,15 +133,15 @@
     }
 
     .heading_nav-logo-link-img {
-        width: 90px;
+        width: 120px;
         height: 58px;
     }
     
     .heading_nav-cart-list {
-        right: -115px;
+        right: 0;
     }
     .heading_nav-cart-list:after {
-        right: 123px;
+        right: 9px;
     }
 
     #item-menu.show {
