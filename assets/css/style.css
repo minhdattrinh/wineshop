@@ -1240,6 +1240,9 @@ input.content_P-single-input-text {
     border: 1px solid #ced4da;
     outline: none;
 }
+/* input[type=number]{
+    
+} */
 /* total-cart-list */
 .content_cart-total-list {
     width: 100%;
