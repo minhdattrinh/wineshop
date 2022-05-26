@@ -62,6 +62,10 @@ body {
 
 } */
 
+.heading_nav-logo-link {
+    text-decoration: none;
+}
+
 .heading_nav-logo-link-img {
     position: relative;
     display: block;
@@ -840,6 +844,9 @@ i.active {
     font-weight: 400;
 }
 /* footer- social */
+.content_footer-logo {
+    text-decoration: none;
+}
 .content_footer-logo img {
     display: block;
     width: 185px;
@@ -1428,6 +1435,11 @@ input.content_P-single-input-text {
 
 #myBtn:hover {
   background-color: #555;
+}
+/* sưa_demo */
+.logo_demo {
+    color: var(--primary-color_2);
+    font-size: 26px;
 }
 
 
